@@ -47,13 +47,13 @@
 
                     <!-- Email field -->
                     <mat-form-field class="w-full">
-                        <mat-label>Email address</mat-label>
+                        <mat-label>Correo electrónico</mat-label>
                         <input
                             id="email"
                             matInput
                             [formControlName]="'email'">
                         <mat-error *ngIf="signUpForm.get('email').hasError('required')">
-                            Email address is required
+                            Correo electrónico is required
                         </mat-error>
                         <mat-error *ngIf="signUpForm.get('email').hasError('email')">
                             Please enter a valid email address
