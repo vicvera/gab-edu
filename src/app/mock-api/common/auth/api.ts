@@ -65,7 +65,7 @@ export class AuthMockApi
             .reply(({request}) =>
             {
                 // Sign in successful
-                if ( request.body.email === 'gabriela@school.edu' && request.body.password === 'admin' )
+                if ( request.body.email === 'gaby.290894@hotmail.com' && request.body.password === 'admin' )
                 {
                     return [
                         200,
@@ -138,7 +138,7 @@ export class AuthMockApi
             .reply(({request}) =>
             {
                 // Sign in successful
-                if ( request.body.email === 'gabriela@school.edu' && request.body.password === 'admin' )
+                if ( request.body.email === 'gaby.290894@hotmail.com' && request.body.password === 'admin' )
                 {
                     return [
                         200,

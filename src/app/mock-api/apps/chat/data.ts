@@ -33,8 +33,8 @@ export const messages = [
     {
         id       : 'e6b2b82f-b199-4a60-9696-5f3e40d2715d',
         chatId   : '',
-        contactId: 'me',
-        value    : 'Hi!',
+        contactId: '',
+        value    : 'Hola maestra, espero que esté teniendo un buen día. Tengo una duda sobre la anatomía del sistema cardiovascular que hemos estado estudiando en clase. ¿Podría ayudarme a aclararla?',
         createdAt: now.minus({week: 1}).set({
             hour  : 18,
             minute: 56,
@@ -43,8 +43,8 @@ export const messages = [
     {
         id       : 'eb82cf4b-fa93-4bf4-a88a-99e987ddb7ea',
         chatId   : '',
-        contactId: '',
-        value    : 'Hey, dude!',
+        contactId: 'me',
+        value    : '¡Hola ! Por supuesto, estaré encantada de ayudarte. ¿En qué específicamente necesitas claridad respecto al sistema cardiovascular?',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 4,
@@ -54,7 +54,7 @@ export const messages = [
         id       : '3cf9b2a6-ae54-47db-97b2-ee139a8f84e5',
         chatId   : '',
         contactId: '',
-        value    : 'Long time no see.',
+        value    : '¡Gracias, maestra Gaby! Mi duda es sobre la diferencia entre las arterias y las venas en el sistema cardiovascular. A veces me confundo con sus funciones y estructuras. ¿Podría explicármelo un poco más?',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 4,
@@ -64,7 +64,7 @@ export const messages = [
         id       : '2ab91b0f-fafb-45f3-88df-7efaff29134b',
         chatId   : '',
         contactId: 'me',
-        value    : 'Yeah, man... Things were quite busy for me and my family.',
+        value    : '¡Claro, ! Las arterias y las venas son partes cruciales del sistema cardiovascular. Las arterias son vasos sanguíneos que transportan sangre desde el corazón hacia el resto del cuerpo. Tienen paredes más gruesas y elásticas debido a la presión sanguínea alta que experimentan.',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 6,
@@ -73,8 +73,8 @@ export const messages = [
     {
         id       : '10e81481-378f-49ac-b06b-7c59dcc639ae',
         chatId   : '',
-        contactId: '',
-        value    : 'What\'s up? Anything I can help with?',
+        contactId: 'me',
+        value    : 'Las venas, por otro lado, transportan sangre desde el cuerpo de regreso al corazón. Tienen paredes más delgadas y contienen válvulas para evitar que la sangre fluya hacia atrás. Esto ayuda a mantener un flujo de sangre unidireccional.',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 6,
@@ -83,8 +83,8 @@ export const messages = [
     {
         id       : '3b334e72-6605-4ebd-a4f6-3850067048de',
         chatId   : '',
-        contactId: 'me',
-        value    : 'We\'ve been on the move, changed 3 places over 4 months',
+        contactId: '',
+        value    : '¡Entiendo mejor ahora, maestra Gaby! Entonces, ¿las arterias transportan sangre oxigenada y las venas transportan sangre desoxigenada?',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 7,
@@ -93,8 +93,8 @@ export const messages = [
     {
         id       : '25998113-3a96-4dd0-a7b9-4d2bb58db3f3',
         chatId   : '',
-        contactId: '',
-        value    : 'Wow! That\'s crazy! 🤯 What happened?',
+        contactId: 'me',
+        value    : 'Exacto, . Las arterias llevan sangre rica en oxígeno desde el corazón hacia los tejidos del cuerpo, mientras que las venas transportan sangre con niveles más bajos de oxígeno de vuelta al corazón y los pulmones para ser oxigenada nuevamente. ¿Alguna otra pregunta o algo más en lo que pueda ayudarte?',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 7,
@@ -103,8 +103,8 @@ export const messages = [
     {
         id       : '30adb3da-0e4f-487e-aec2-6d9f31e097f6',
         chatId   : '',
-        contactId: 'me',
-        value    : 'You know I got a job in that big software company. First move was because of that.',
+        contactId: '',
+        value    : '¡No, maestra Gaby! Gracias por la explicación tan clara. Ahora tengo una comprensión mucho mejor de las diferencias entre arterias y venas.',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 8,
@@ -114,7 +114,7 @@ export const messages = [
         id       : 'c0d6fd6e-d294-4845-8751-e84b8f2c4d3b',
         chatId   : '',
         contactId: 'me',
-        value    : 'Then they decided to re-locate me after a month',
+        value    : 'De nada, . Siempre estoy aquí para ayudarte con cualquier duda que tengas. No dudes en preguntar en cualquier momento. ¡Sigue adelante con tus estudios de enfermería!',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 8,
@@ -123,161 +123,21 @@ export const messages = [
     {
         id       : '8d3c442b-62fa-496f-bffa-210ff5c1866b',
         chatId   : '',
-        contactId: 'me',
-        value    : 'Which was an absolute pain because we just set up everything, house, kids school and all that.',
+        contactId: '',
+        value    : '¡Gracias, maestra Gaby! Lo aprecio mucho. Tendré en cuenta su oferta de ayuda. ¡Que tenga un buen día!',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
             minute: 8,
         }).toISO(),
     },
     {
-        id       : '3cf26ef0-e81f-4698-ac39-487454413332',
-        chatId   : '',
-        contactId: 'me',
-        value    : 'So we moved the second time.',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 9,
-        }).toISO(),
-    },
-    {
-        id       : '415151b9-9ee9-40a4-a4ad-2d88146bc71b',
+        id       : '8d3c442b-62fa-496f-bffa-210ff5c1866b',
         chatId   : '',
         contactId: '',
-        value    : 'It\'s crazy!',
+        value    : 'Nos vemos mañana!',
         createdAt: now.minus({week: 1}).set({
             hour  : 19,
-            minute: 9,
-        }).toISO(),
-    },
-    {
-        id       : '3a2d3a0e-839b-46e7-86ae-ca0826ecda7c',
-        chatId   : '',
-        contactId: 'me',
-        value    : 'Then this virus thing happened and just after a week we moved in, they decided the whole department will be working remotely.',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 10,
-        }).toISO(),
-    },
-    {
-        id       : '5329c20d-6754-47ec-af8c-660c72be3528',
-        chatId   : '',
-        contactId: 'me',
-        value    : 'And then we decided to move back our first location because, you know, everything was already setup so that\'s the third time.',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 10,
-        }).toISO(),
-    },
-    {
-        id       : '415151b9-9ee9-40a4-a4ad-2d88146bc71b',
-        chatId   : '',
-        contactId: '',
-        value    : 'Ohh dude, I\'m really sorry you had to go through all that in such a short period of time',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 11,
-        }).toISO(),
-    },
-    {
-        id       : 'ea7662d5-7b72-4c19-ad6c-f80320541001',
-        chatId   : '',
-        contactId: '',
-        value    : '😕',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 11,
-        }).toISO(),
-    },
-    {
-        id       : '3a2d3a0e-839b-46e7-86ae-ca0826ecda7c',
-        chatId   : '',
-        contactId: 'me',
-        value    : 'Thanks, man! It was good catching up with you.',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 11,
-        }).toISO(),
-    },
-    {
-        id       : '5329c20d-6754-47ec-af8c-660c72be3528',
-        chatId   : '',
-        contactId: '',
-        value    : 'Yeah dude. Hit me again next week so we can grab a coffee, remotely!',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 12,
-        }).toISO(),
-    },
-    {
-        id       : '5329c20d-6754-47ec-af8c-660c72be3528',
-        chatId   : '',
-        contactId: 'me',
-        value    : ':) Sure, man! See you next week!',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 12,
-        }).toISO(),
-    },
-    {
-        id       : '5329c20d-6754-47ec-af8c-660c72be3528',
-        chatId   : '',
-        contactId: '',
-        value    : 'See you later!',
-        createdAt: now.minus({week: 1}).set({
-            hour  : 19,
-            minute: 12,
-        }).toISO(),
-    },
-    {
-        id       : 'bab8ca0e-b8e5-4375-807b-1c91fca25a5d',
-        chatId   : '',
-        contactId: 'me',
-        value    : 'Hey! Are you available right now? How about if we grab that coffee today? Remotely, of course :)',
-        createdAt: now.set({
-            hour  : 12,
-            minute: 45,
-        }).toISO(),
-    },
-    {
-        id       : '8445a84d-599d-4e2d-a31c-5f4f29ad2b4c',
-        chatId   : '',
-        contactId: '',
-        value    : 'Hi!',
-        createdAt: now.set({
-            hour  : 12,
-            minute: 56,
-        }).toISO(),
-    },
-    {
-        id       : '9f506742-50da-4350-af9d-61e53392fa08',
-        chatId   : '',
-        contactId: '',
-        value    : 'Sure thing! I\'m gonna call you in 5, is it okay?',
-        createdAt: now.set({
-            hour  : 12,
-            minute: 56,
-        }).toISO(),
-    },
-    {
-        id       : 'ca8523d8-faed-45f7-af09-f6bd5c3f3875',
-        chatId   : '',
-        contactId: 'me',
-        value    : 'Awesome! Call me in 5 minutes..',
-        createdAt: now.set({
-            hour  : 12,
-            minute: 58,
-        }).toISO(),
-    },
-    {
-        id       : '39944b00-1ffe-4ffb-8ca6-13c292812e06',
-        chatId   : '',
-        contactId: '',
-        value    : '👍🏻',
-        createdAt: now.set({
-            hour  : 13,
-            minute: 0,
+            minute: 8,
         }).toISO(),
     },
 ];
@@ -287,7 +147,7 @@ export const chats = [
         contactId    : '9d3f0e7f-dcbd-4e56-a5e8-87b8154e9edf',
         unreadCount  : 2,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -295,7 +155,7 @@ export const chats = [
         contactId    : '16b9e696-ea95-4dd8-86c4-3caf705a1dc6',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -303,7 +163,7 @@ export const chats = [
         contactId    : 'bf172879-423a-4fd6-8df3-6d1938bbfe1f',
         unreadCount  : 1,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -311,7 +171,7 @@ export const chats = [
         contactId    : 'abd9e78b-9e96-428f-b3ff-4d934c401bee',
         unreadCount  : 0,
         muted        : true,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -319,7 +179,7 @@ export const chats = [
         contactId    : '6519600a-5eaa-45f8-8bed-c46fddb3b26a',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -327,7 +187,7 @@ export const chats = [
         contactId    : 'b62359fd-f2a8-46e6-904e-31052d1cd675',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -335,7 +195,7 @@ export const chats = [
         contactId    : '2c37ed00-427a-46d7-8f8f-d711c768d1ee',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -343,7 +203,7 @@ export const chats = [
         contactId    : 'b8258ccf-48b5-46a2-9c95-e0bd7580c645',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -351,7 +211,7 @@ export const chats = [
         contactId    : 'e2946946-b4b5-4fd7-bab4-62c38cdff2f1',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -359,14 +219,14 @@ export const chats = [
         contactId    : '12148fa2-e0a4-49fb-b3c5-daeecdb5180a',
         unreadCount  : 0,
         muted        : true,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
         id           : 'ffbbfdb4-0485-44aa-8521-5ce1eda3fd2f',
         contactId    : '81fdc48c-5572-4123-8a73-71b7892120de',
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -374,7 +234,7 @@ export const chats = [
         contactId    : 'a9a9f382-e4c3-42fb-9fe9-65aa534732b5',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -382,7 +242,7 @@ export const chats = [
         contactId    : '7e8e1f1e-d19f-45c7-86bd-6fef599dae71',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -390,7 +250,7 @@ export const chats = [
         contactId    : '8141dd08-3a6e-4770-912c-59d0ed06dde6',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
     {
@@ -398,7 +258,7 @@ export const chats = [
         contactId    : '114642a2-ccb7-4cb1-ad2b-5e9b6a0c1d2e',
         unreadCount  : 0,
         muted        : false,
-        lastMessage  : 'See you tomorrow!',
+        lastMessage  : 'Nos vemos mañana!',
         lastMessageAt: '26/04/2021',
     },
 ];
